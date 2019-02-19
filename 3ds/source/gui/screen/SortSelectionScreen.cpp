@@ -90,7 +90,6 @@ SortType SortSelectionScreen::run()
         update(&touch);
 
         C3D_FrameEnd(0);
-        Gui::clearTextBufs();
     }
 
     return vals[hid.fullIndex()];

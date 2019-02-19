@@ -90,7 +90,6 @@ size_t BoxSelectionScreen::run()
         update(&touch);
 
         C3D_FrameEnd(0);
-        Gui::clearTextBufs();
     }
 
     return hid.fullIndex();
